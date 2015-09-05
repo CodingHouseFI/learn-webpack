@@ -1,9 +1,5 @@
-var $ = require("jquery");
+import $ from "jquery";
 
-var changes = {
-  documentReadyChanges: function() {
-    $("body").html("Hello");
-  }
+export default {
+  documentReadyChanges: () => $("body").html("Hello")
 }
-
-module.exports = changes;
