@@ -1,3 +1,7 @@
 /node_modules
 bundle.js
 bundle.js.map
+main-bundle.js
+main-bundle.js.map
+test-bundle.js.map
+test-bundle.js

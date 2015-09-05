@@ -1,9 +1,12 @@
 module.exports = {
   watch: true,
   developement: true,
-  entry: "./app.js",
+  entry: {
+    main: "./app.js",
+    test: "./test/test.js"
+  },
   output: {
-    filename: "bundle.js"
+    filename: "[name]-bundle.js"
   },
   module: {
     loaders: [
