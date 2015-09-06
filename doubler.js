@@ -3,6 +3,10 @@ let doubler = input => {
     return 2*input;
   }
 
+  if (typeof(input) === "boolean") {
+    return input;
+  }
+
   if (typeof(input) === "string") {
     return input.split('').map(char => char + char).join('');
   }
